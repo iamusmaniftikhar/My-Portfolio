@@ -101,5 +101,19 @@ ul{
     right: 0;
     margin: auto;
 }
+.skill{
+    text-align: center;
+    margin-bottom: 20em;
+}
+.skill p{
+    margin-bottom: 30px;
+
+}
+.skill img{
+    width: 40px;
+    margin: 0px 15px;
+}
+
+
 
 
