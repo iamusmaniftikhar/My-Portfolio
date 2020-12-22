@@ -113,7 +113,16 @@ ul{
     width: 40px;
     margin: 0px 15px;
 }
-
+/*--------working1--------*/
+.work{
+    width: 100%;
+    position: relative;
+    margin-bottom: 20em;
+}
+.work > .workText{
+    position: absolute;
+    
+}
 
 
 
