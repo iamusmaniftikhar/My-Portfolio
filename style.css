@@ -26,7 +26,7 @@ body{
     background-repeat: no-repeat;
 }
 .blue{
-    
+    color: #027BFF;
 }
 h1{
     font-size: 40px;
@@ -44,7 +44,7 @@ h5{
     color: #17191A;
 }
 p{
-    color: 8F9EA5;
+    color: gray;
     opacity: 0.8;
     font-weight: 100;
     margin-top: 10px;
@@ -75,6 +75,31 @@ p{
 }
 .contactme img{
     margin-right: 10px;
+}
+/*--------Landing--------*/
+.landing{
+    height: 100vh;
+    position: relative;
+}
+.landingWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+ul{
+    list-style: none;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.landingL{
+    margin-top: 4em;
+}
+.scroll{
+    position: absolute;
+    bottom: 180px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 
