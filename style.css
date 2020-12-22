@@ -40,4 +40,38 @@ h5{
     margin-top: 10px;
     color: #17191A;
 }
+p{
+    color: 8F9EA5;
+    opacity: 0.8;
+    font-weight: 100;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/*--------Nav--------*/
+.nav{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.contactme, .navIcons{
+    flex: 1;
+}
+.navIcons{
+    text-align: right;
+}
+.navIcons a, .contactme a, .contactme img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.navIcons a{
+    margin-left: 40px;
+}
+.contactme a{
+    color: #027BFF;
+    text-decoration: none;
+}
+.contactme img{
+    margin-right: 10px;
+}
+
 
