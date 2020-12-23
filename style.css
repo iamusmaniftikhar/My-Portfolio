@@ -123,7 +123,7 @@ ul{
     position: absolute;
     top: 85;
 }
-.work > .workText > ,underline{
+.work > .workText > .underline{
     display: block;
     background-color: #027BFF;
     height: 7px;
@@ -149,7 +149,62 @@ ul{
     margin-left: 1em;
 }
 /*--------working2--------*/
-
+.work2{
+    width: 100%;
+    position: relative;
+    margin-bottom: 20em;
+}
+.work2 > .workText{
+    position: absolute;
+    top: 85;
+}
+ .underline{
+    display: block;
+    background-color: #027BFF;
+    height: 4px;
+    width: 120px;
+    margin-top: 5px;
+}
+.work2 > .workImg{
+    width: 85%;
+   float: left;
+    -webkit-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+    -moz-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+    box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+}
+.work2 ul{
+    position: absolute;
+    bottom: 0;
+    right: 99%;
+}
+.work2 ul li{
+    margin-top: 20px;
+}
+.workImg2{
+    margin-left: 1em;
+}
+.work a, .work2 a{
+    text-decoration: none;
+}
+.footer{
+    background-image:url('images/Dribbble_Blue_Large.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 320px;
+    padding-bottom: 8em ;
+    text-align: center;
+}
+.footer a{
+    color: #027BFF;
+    text-decoration: none;
+}
+.underlinesmall{
+    display: block;
+    height: 3px;
+    width: 41px;
+    margin: 5px auto 0 auto;
+    background-color: #027BFF;
+}
 
 
 
