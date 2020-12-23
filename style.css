@@ -121,8 +121,35 @@ ul{
 }
 .work > .workText{
     position: absolute;
-    
+    top: 85;
 }
+.work > .workText > ,underline{
+    display: block;
+    background-color: #027BFF;
+    height: 7px;
+    width: 63px;
+    margin-top: 5px;
+}
+.work > .workImg{
+    width: 85%;
+   float: right;
+    -webkit-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+    -moz-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+    box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+}
+.work ul{
+    position: absolute;
+    bottom: 0;
+    right: 99%;
+}
+.work ul li{
+    margin-top: 20px;
+}
+.workImg{
+    margin-left: 1em;
+}
+/*--------working2--------*/
+
 
 
 
